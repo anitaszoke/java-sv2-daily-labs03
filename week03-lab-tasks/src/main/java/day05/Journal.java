@@ -10,7 +10,7 @@ public class Journal {
         return name;
     }
     public boolean addStudent(String studentName) {
-        if (studentName.contains(" ")) {
+        if (studentName.trim().contains(" ")) {
             name.add(studentName);
             return true;
         } else {

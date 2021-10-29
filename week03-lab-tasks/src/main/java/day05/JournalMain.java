@@ -9,6 +9,8 @@ public class JournalMain {
 
         System.out.println(journal.addStudent("Kovács Kati"));
         System.out.println(journal.addStudent("Kati"));
+        System.out.println(journal.addStudent(" Kati"));
+        System.out.println(journal.addStudent("Kovács Kati "));
         System.out.println(journal.getName());
 
     }
